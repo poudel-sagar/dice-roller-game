@@ -18,6 +18,7 @@ class _HomePageState extends State<HomePage> {
           rollDice();
         });
   }
+  //roll the dice
    rollDice(){
     int random=(Random().nextInt(6))+1;
     setState(() {
