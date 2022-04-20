@@ -39,6 +39,7 @@ class _HomePageState extends State<HomePage> {
           
           Container(
             height: 50,
+            //media query
             width:MediaQuery.of(context).size.width*0.8,
             child: FlatButton(
               color: Colors.indigo,
